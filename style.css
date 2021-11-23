@@ -26,13 +26,15 @@
 }
 
 .home {
-    width: 120px;
+    width: 50px;
+    cursor: pointer;
 }
 
 #header ul li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
+    position: relative;
 }
 
 #header ul li a {
@@ -41,3 +43,17 @@
     text-transform: uppercase;
 }
 
+#header ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom:-10px;
+    transition: 0.5s;
+}
+
+#header ul li:hover::after {
+    width: 100%;
+}
