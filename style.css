@@ -85,11 +85,27 @@ main {
     margin: auto;
 }
 
+.left {
+    position: absolute;
+    left: 10px;
+
+    
+  }
+
+  .ftext{
+      font-size: 20px;
+      color: black;
+      text-align: center;
+      margin: auto;
+      width: 50%;
+      border-left-width: 120px;
+
+  }
 footer{
     background-color: #dfdfdf;
-
+    bottom: 0px;
     width: 100%;
-    padding: 1vw;
+    margin: auto;
 }
 
 
