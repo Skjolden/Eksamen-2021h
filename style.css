@@ -32,13 +32,14 @@
 }
 
 .home {
-    height: 80px;
-    margin-left: 20px;
+    height: 60px;
+    margin: 10px 0 0 20px;
+    
 }
 
 .checkbtn {
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
     color: black;
     float: right;
     line-height: 80px;
@@ -60,7 +61,7 @@ main {
 }
 
 .menu {
-    margin: 20px 100px;
+    margin: 20px 20px;
     min-height: 100%;
     display: flex;
     align-items: center;
@@ -68,22 +69,28 @@ main {
     flex-wrap: wrap;
 }
 
-.menu a {
+.menu div {
+    margin: 20px;
     display: flex;
-    flex-basis: calc(50% - 0px);
+    flex-basis: 40%;
     justify-content: center;
     flex-direction: column;
 }
 
-.menu a:hover{
+.menu div:hover{
     transform: scale(1.1);
     transition: 0.2s;
 }
 
-.menu a img {
+.menu div a {
     max-width: 300px;
     margin: auto;
 }
+
+.menu div p {
+    text-align: center;
+}
+
 
 
 @media (min-width: 900px) {
@@ -95,7 +102,7 @@ main {
     
     #header ul li::after {
         content: '';
-        height: 1px;
+        height: 2px;
         width: 0;
         background: black;
         position: absolute;
@@ -111,13 +118,14 @@ main {
     .checkbtn {
         display: none;
     }
-    
-    
 }
 
 @media (max-width: 900px) {
     .checkbtn{
         display: block;
+        position: fixed;
+        right: 0;
+        top: 0;
     }
 
     #header ul {
