@@ -85,6 +85,13 @@ main {
     margin: auto;
 }
 
+footer{
+    background-color: #dfdfdf;
+
+    width: 100%;
+    padding: 1vw;
+}
+
 
 @media (min-width: 900px) {
     #header ul li {
