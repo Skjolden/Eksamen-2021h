@@ -117,7 +117,7 @@ section ul li h2 {
     margin: 10px 10%;
 }
 
-.menu {
+menu div {
     min-height: 100%;
     max-width: 50vh;
     margin: auto;
@@ -127,7 +127,7 @@ section ul li h2 {
     flex-wrap: wrap;
 }
 
-.menu div {
+menu div div{
     margin: 20px;
     display: flex;
     flex-basis: 40%;
@@ -135,17 +135,17 @@ section ul li h2 {
     flex-direction: column;
 }
 
-.menu div:hover{
+menu div div:hover{
     transform: scale(1.1);
     transition: 0.2s;
 }
 
-.menu div a {
+menu div div a {
     max-width: 300px;
     margin: auto;
 }
 
-.menu div p {
+menu div div p {
     text-align: center;
 }
 
