@@ -65,6 +65,8 @@
     display: none;
 }
 
+
+
 h1 {
     margin-bottom: 10px;
     font-size: 40px;
@@ -77,13 +79,14 @@ h2 {
 
 section {
     margin-bottom: 20px;
-    padding: 5px 20px 20px 20px;
+    padding: 5px 0 20px;
+    padding-inline: 10%;
+    
+
 }
 
 .paragraph {
     display: flex;
-    margin-right: auto;
-    width: 80%;
     align-items: flex-start;
 }
 
