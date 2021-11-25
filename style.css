@@ -153,6 +153,11 @@ section ul li h2 {
     margin-left: 20px;
 }
 
+menu h2 {
+    margin: auto;
+    max-width: 50vh;
+}
+
 pre a {
     font-weight: bolder;
     border: black;
