@@ -157,7 +157,12 @@ section dt {
 }
 
 pre a {
-    color: black;
+    font-weight: bolder;
+    border: black;
+    border-radius: 2px;
+    background-color: black;
+    padding: 4px;
+    color: white;
     
 }
 
