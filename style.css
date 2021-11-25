@@ -92,6 +92,8 @@ section p {
 
 .menu {
     min-height: 100%;
+    max-width: 50vh;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -152,6 +154,11 @@ overflow:hidden;
     width: 65px;
   }
 
+pre a {
+    color: black;
+    
+}
+
 footer{
     background-color: #221a1a;
     bottom: 0px;
@@ -168,6 +175,8 @@ footer p {
     width: 50%;
     border-left-width: 120px;
 }
+
+
 
 @media (min-width: 900px) {
     #header ul li {
@@ -234,5 +243,6 @@ footer p {
 
     .menu div{
         margin: auto;
+        margin-top: 20px;
     }
 }
