@@ -43,7 +43,7 @@
     filter: invert(100%);
 }
 
-.checkbtn {
+.menubtn {
     cursor: pointer;
     font-size: 20px;
     color: black;
@@ -56,7 +56,7 @@
     display: none;
 }
 
-.checkbtn:hover {
+.menubtn:hover {
     background: #363636;
     color: white;
 }
@@ -64,8 +64,6 @@
 #check {
     display: none;
 }
-
-
 
 h1 {
     margin-bottom: 10px;
@@ -82,13 +80,6 @@ section {
     padding: 5px 0 20px;
     padding-inline: 10%;
     min-width: 30%;
-    
-
-}
-
-.paragraph {
-    display: flex;
-    align-items: flex-start;
 }
 
 section img {
@@ -106,17 +97,24 @@ section dt {
     font-weight: bold;
 }
 
+section ul li h2 {
+    font-size: 17px;
+    margin: 0;
+}
 
+.paragraph {
+    display: flex;
+    align-items: flex-start;
+}
 
 .azure {
     background: #f0ffff;
 }
 
-.kærer {
+.karer {
     display: block;
     width: 75%;
     margin: 10px 10%;
-
 }
 
 .menu {
@@ -128,7 +126,6 @@ section dt {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 
 .menu div {
     margin: 20px;
@@ -163,7 +160,6 @@ pre a {
     background-color: black;
     padding: 4px;
     color: white;
-    
 }
 
 footer {
@@ -209,23 +205,12 @@ footer p {
         width: 100%;
     }
 
-    .checkbtn {
-        display: none;
-    }
-
     footer p {
         margin-left: 50px;
     }
 }
 
 @media (max-width: 900px) {
-    .checkbtn{
-        display: block;
-        position: fixed;
-        right: 0;
-        top: 0; 
-    }
-
     #header ul {
         position: fixed;
         width: 100%;
@@ -253,6 +238,13 @@ footer p {
 
     #check:checked ~ ul {
         left: 0%;
+    }
+
+    .menubtn{
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 0; 
     }
 
     .menu div{

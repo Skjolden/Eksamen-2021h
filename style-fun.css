@@ -5,7 +5,6 @@
 body {
     margin: 0;
     background-image: url('images/background-bowling.jpg');
-      
 }
 
 main, footer {
@@ -24,8 +23,6 @@ main, footer {
 
 #header li {
     float: left;
-
-  
 }
 
 #header li a {
@@ -45,7 +42,6 @@ main, footer {
     margin: 40px auto 0 auto;
     background-color: #ffffff;
     opacity: 75%;
-    
 }
 
 .item {
@@ -53,7 +49,6 @@ main, footer {
     margin-bottom: 20px;
     flex-basis: 50%;
 }
-
 
 picture *{
     padding-top: 20px;
@@ -105,15 +100,17 @@ p {
 }
 
 @media (max-width: 900px){
-    img{
+    img {
         width: 100%;
         margin: 2vw;
     }
-    h1{
+    
+    h1 {
         font-size: 5vw;
         font-family: fantasy;
     }
-    p{
+
+    p {
         font-size: 3vw;
     }
 }
