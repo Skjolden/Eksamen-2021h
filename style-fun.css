@@ -104,7 +104,11 @@ p {
     }     
 }
 
-@media (max-width: 800px){
+@media (max-width: 900px){
+    img{
+        width: 100%;
+        margin: 2vw;
+    }
     h1{
         font-size: 5vw;
         font-family: fantasy;
