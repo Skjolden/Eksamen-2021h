@@ -148,6 +148,10 @@ section dt {
     text-align: center;
 }
 
+.navoptions {
+    margin-left: 20px;
+}
+
 pre a {
     color: black;
     
