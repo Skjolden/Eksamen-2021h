@@ -65,17 +65,43 @@
 }
 
 h1 {
-    margin: 10px 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 section {
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 5px 20px 20px 20px;
+}
+
+.paragraph {
+    display: flex;
+    margin-right: auto;
+    width: 80%;
+    align-items: flex-start;
+}
+
+section img {
+    margin-right: 20px;
 }
 
 section p {
     margin-bottom: 10px;
 }
+
+section dt {
+    margin: 20px 0 10px;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
 
 .azure {
     background: #f0ffff;
