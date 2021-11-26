@@ -7,6 +7,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* #header id is only used to style the header */
 #header nav {
     width: 100%;
     height: 80px;
@@ -31,6 +32,7 @@
     text-transform: uppercase;
 }
 
+/*.home is used to style the "home button" */
 .home {
     height: 60px;
     margin: 10px 0 0 20px;
@@ -43,6 +45,7 @@
     filter: invert(100%);
 }
 
+/*.menubtn is used to style the menu button that shows when viewed on a smaller device*/
 .menubtn {
     cursor: pointer;
     font-size: 20px;
@@ -61,6 +64,7 @@
     color: white;
 }
 
+/*#check defines the checkbutton that is linked to the menu button */
 #check {
     display: none;
 }
@@ -75,6 +79,7 @@ h2 {
     margin-bottom: 10px;
 }
 
+/*section styles the different sections on the pages*/
 section {
     margin-bottom: 20px;
     padding: 5px 0 20px;
@@ -102,21 +107,25 @@ section ul li h2 {
     margin: 0;
 }
 
+/*.paragraph styles the different text and images that belongs to its own little section*/
 .paragraph {
     display: flex;
     align-items: flex-start;
 }
 
+/*.azure sets a light blue background*/
 .azure {
     background: #f0ffff;
 }
 
+/*.karer defines the group photo used in index.html*/
 .karer {
     display: block;
     width: 75%;
     margin: 10px 10%;
 }
 
+/*menu styles the menu with 4 buttons to the other pages that is found on the index page*/
 menu div {
     min-height: 100%;
     max-width: 50vh;
@@ -149,15 +158,17 @@ menu div div p {
     text-align: center;
 }
 
-.navoptions {
-    margin-left: 20px;
-}
-
 menu h2 {
     margin: auto;
     max-width: 50vh;
 }
 
+/*.navoptions makes a slight indent for the ul further down the page on index.html*/
+.navoptions {
+    margin-left: 20px;
+}
+
+/*pre a styles the back to top button*/
 pre a {
     font-weight: bolder;
     border: black;
@@ -167,6 +178,7 @@ pre a {
     color: white;
 }
 
+/*footer styles the footer at the bottom of the screen*/
 footer {
     width: 100%;
     background: #221a1a;
@@ -187,7 +199,7 @@ footer p {
     padding: 5px 10px;
 }
 
-
+/*styling for screens with a width above 900px*/
 @media (min-width: 900px) {
     #header ul li {
         display: inline-block;
@@ -215,6 +227,7 @@ footer p {
     }
 }
 
+/*styling for screens with a width below 900px*/
 @media (max-width: 900px) {
     #header ul {
         position: fixed;
